@@ -158,7 +158,7 @@ hr {
 }
 
 .course .course-thumbnil {
-    margin: 23px;
+    margin-top: 23px;
 }
 
 .course .course-thumbnil img {
@@ -186,6 +186,15 @@ hr {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.duration {
+    display: flex;
+    align-items: center;
+}
+
+.duration i {
+    margin-right: 5px;
 }
 
 .fs-star {
