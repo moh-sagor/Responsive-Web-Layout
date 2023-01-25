@@ -3,6 +3,62 @@ body {
     background-color: #e5e5e5;
 }
 
+header {
+    margin-bottom: 30px;
+    height: 94px;
+    background-color: #562EFF;
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar {
+    display: flex;
+}
+
+.nav-item {
+    justify-content: space-between;
+    width: 900px;
+    display: flex;
+}
+
+.nav-logo img {
+    height: 51px;
+    width: 51px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo a {
+    text-decoration: none;
+    color: #e5e5e5;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link img {
+    height: 51px;
+    width: 51px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: #e5e5e5;
+    margin-right: 30px;
+}
+
+.nav-link {
+    float: right;
+}
+
 main {
     display: flex;
     justify-content: center;
@@ -191,5 +247,23 @@ hr {
 
     .course-time-star {
         margin-bottom: 30px;
+    }
+
+    .nav-item {
+        justify-content: space-between;
+        width: 100%;
+        display: flex;
+    }
+
+    .nav-link a {
+        text-decoration: none;
+        color: #e5e5e5;
+        margin-right: 10px;
+    }
+
+    .nav-logo a {
+        text-decoration: none;
+        color: #e5e5e5;
+        padding-right: 50px;
     }
 }
